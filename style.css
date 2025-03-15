@@ -1,0 +1,33 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+html, body {
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.fundo {
+    background-color: aqua;
+    height: 679px;
+    width: 100%;
+    background-image: url(img/PAULO.png);
+    background-size: cover;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+.navegacao {
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
+}
+
